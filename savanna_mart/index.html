@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netpro Shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="topbar">Free Accra pickup on selected orders above GH₵300</div>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="index.html">Savanna Mart</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input
+          id="pageSearch"
+          type="search"
+          aria-label="Search this page"
+          placeholder="Search page"
+        /><button onclick="pageSearch()">Search</button>
+      </div>
+    </nav>
+    <header class="hero">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        aria-label="Background promotional video"
+      >
+        <source src="assets/bg-video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-content">
+        <h1>Everyday shopping made simple</h1>
+        <p>
+          Savanna Mart is a prototype e-commerce store inspired by leading
+          African marketplaces. We connect customers with fashion, electronics,
+          home, beauty and grocery essentials.
+        </p>
+        <a class="btn" href="shop.html">Start Shopping</a>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <p id="searchStatus" class="muted" aria-live="polite"></p>
+      <h2 class="section-title">Featured Categories</h2>
+      <section class="grid" aria-label="Featured categories">
+        <article class="card">
+          <img src="./assets/OIP (1).jpg" alt="Fashion category illustration" />
+          <h3>Fashion</h3>
+          <p>Affordable clothing, shoes and accessories for daily style.</p>
+        </article>
+        <article class="card">
+          <img
+            src="./assets/download.jpg"
+            alt="Electronics category illustration"
+          />
+          <h3>Electronics</h3>
+          <p>Phones, laptops, audio items and smart accessories.</p>
+        </article>
+        <article class="card">
+          <img src="./assets/OIP.jpg" alt="Grocery category illustration" />
+          <h3>Groceries</h3>
+          <p>Food, household items and quick essentials for busy families.</p>
+        </article>
+      </section>
+      <section class="split">
+        <div>
+          <h2>Social community feed</h2>
+          <div class="feed">
+            <strong>Facebook update:</strong> Weekend flash sale starts Friday.
+            Customers can ask questions and share delivery feedback.
+          </div>
+          <div class="feed">
+            <strong>Instagram update:</strong> New arrivals are live with short
+            videos, product tags and customer reviews.
+          </div>
+        </div>
+        <div>
+          <h2>Follow us</h2>
+          <p>
+            Use our community channels for deals, customer service and shopping
+            tips.
+          </p>
+          <div class="socials">
+            <a href="https://www.facebook.com" aria-label="Facebook page"
+              >Facebook</a
+            ><a href="https://www.instagram.com" aria-label="Instagram page"
+              >Instagram</a
+            ><a href="https://www.youtube.com" aria-label="YouTube channel"
+              >YouTube</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>
+        &copy; 2026 Savanna Mart Prototype |
+        <a href="contact.html">Customer Support</a>
+      </p>
+    </footer>
+    <script src="js/search.js"></script>
+  </body>
+</html>

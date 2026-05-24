@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savanna Mart | Deals</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <nav class="nav">
+      <a class="logo" href="index.html">Savanna Mart</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input
+          id="pageSearch"
+          type="search"
+          aria-label="Search this page"
+          placeholder="Search page"
+        /><button onclick="pageSearch()">Search</button>
+      </div>
+    </nav>
+    <main id="main" class="main">
+      <p id="searchStatus" class="muted" aria-live="polite"></p>
+      <h1 class="section-title">Current Deals</h1>
+      <div class="table-wrap">
+        <table>
+          <tr>
+            <th>Deal</th>
+            <th>Category</th>
+            <th>Benefit</th>
+          </tr>
+          <tr>
+            <td>Student Saver</td>
+            <td>Electronics</td>
+            <td>Discounts on headphones and chargers</td>
+          </tr>
+          <tr>
+            <td>Family Basket</td>
+            <td>Groceries</td>
+            <td>Bundle pricing on basic home goods</td>
+          </tr>
+          <tr>
+            <td>Style Weekend</td>
+            <td>Fashion</td>
+            <td>Affordable shoes and clothing deals</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer class="footer"><p>&copy; 2026 Savanna Mart Prototype</p></footer>
+    <script src="js/search.js"></script>
+  </body>
+</html>

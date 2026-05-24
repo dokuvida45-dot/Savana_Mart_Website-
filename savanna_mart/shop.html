@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savanna Mart | Shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <nav class="nav">
+      <a class="logo" href="index.html">Savanna Mart</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input
+          id="pageSearch"
+          type="search"
+          aria-label="Search this page"
+          placeholder="Search page"
+        /><button onclick="pageSearch()">Search</button>
+      </div>
+    </nav>
+    <main id="main" class="main">
+      <p id="searchStatus" class="muted" aria-live="polite"></p>
+      <h1 class="section-title">Shop Products</h1>
+      <section class="grid">
+        <article class="product">
+          <img src="./assets/earbuds.webp" alt="Wireless earbuds" /><span
+            class="badge"
+            >Electronics</span
+          >
+          <h2>Wireless Earbuds</h2>
+          <p>Clear sound with compact charging case.</p>
+          <p class="price">GH₵180</p>
+          <p class="coder ">coder vida </p>
+          <a class="btn" href="product.html">View Product</a>
+        </article>
+        <article class="product">
+          <img src="./assets/Sneakers.jpg" alt="Casual sneakers" /><span
+            class="badge"
+            >Fashion</span
+          >
+          <h2>Casual Sneakers</h2>
+          <p>Comfortable daily shoes for school, work and weekend use.</p>
+          <p class="price">GH₵220</p>
+          <p class="coder">coder vida </p>
+          <a class="btn" href="product.html">View Product</a>
+        </article>
+        <article class="product">
+          <img src="assets/grocery.webp" alt="Home grocery pack" /><span
+            class="badge"
+            >Grocery</span
+          >
+          <h2>Home Grocery Pack</h2>
+          <p>Basic food and household essentials in one bundle.</p>
+          <p class="price">GH₵145</p>
+          <p class="coder">Coder vida</p>
+          <a class="btn" href="product.html">View Product</a>
+        </article>
+      </section>
+    </main>
+    <footer class="footer"><p>&copy; 2026 Savanna Mart Prototype</p></footer>
+    <script src="js/search.js"></script>
+  </body>
+</html>

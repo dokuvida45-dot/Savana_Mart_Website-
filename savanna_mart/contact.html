@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savanna Mart | Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <nav class="nav">
+      <a class="logo" href="index.html">Savanna Mart</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input
+          id="pageSearch"
+          type="search"
+          aria-label="Search this page"
+          placeholder="Search page"
+        /><button onclick="pageSearch()">Search</button>
+      </div>
+    </nav>
+    <main id="main" class="main">
+      <p id="searchStatus" class="muted" aria-live="polite"></p>
+      <h1 class="section-title">Contact and Checkout Support</h1>
+      <section class="split">
+        <form class="form panel" aria-label="Contact form">
+          <label for="name">Full name</label
+          ><input id="name" type="text" required /><label for="email"
+            >Email address</label
+          ><input id="email" type="email" required /><label for="topic"
+            >Topic</label
+          ><select id="topic">
+            <option>Delivery</option>
+            <option>Payment</option>
+            <option>Returns</option></select
+          ><label for="message">Message</label
+          ><textarea id="message" rows="5"></textarea
+          ><button class="btn" type="submit">Send Message</button>
+        </form>
+        <div class="panel">
+          <h2>Secure shopping promise</h2>
+          <p>
+            Our prototype communicates SSL-secured browsing, trusted payment
+            options and customer support. These are important for confidence in
+            e-commerce services.
+          </p>
+          <p><strong>Email:</strong> support@savannamart.example</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><p>&copy; 2026 Savanna Mart Prototype</p></footer>
+    <script src="js/search.js"></script>
+  </body>
+</html>

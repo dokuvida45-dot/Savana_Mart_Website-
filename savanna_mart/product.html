@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savanna Mart | Product</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <nav class="nav">
+      <a class="logo" href="index.html">Savanna Mart</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input
+          id="pageSearch"
+          type="search"
+          aria-label="Search this page"
+          placeholder="Search page"
+        /><button onclick="pageSearch()">Search</button>
+      </div>
+    </nav>
+    <main id="main" class="main">
+      <p id="searchStatus" class="muted" aria-live="polite"></p>
+      <section class="split">
+        <img
+          src="assets/electronics.svg"
+          alt="Product image of wireless earbuds"
+        />
+        <div class="panel">
+          <span class="badge">Best Seller</span>
+          <h1>Wireless Earbuds</h1>
+          <p>
+            Designed for clear calls, music and mobile shopping convenience.
+            This product page demonstrates product information, price, delivery
+            promise and safe checkout messaging.
+          </p>
+          <p class="price">GH₵180</p>
+          <button class="btn">Add to Cart</button>
+          <h2>Delivery and accessibility</h2>
+          <p>
+            Customers can choose pickup or delivery. Images include alternative
+            text, forms have labels, and keyboard users can move through the
+            page easily.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><p>&copy; 2026 Savanna Mart Prototype</p></footer>
+    <script src="js/search.js"></script>
+  </body>
+</html>
