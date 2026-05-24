@@ -145,9 +145,15 @@ textarea:focus {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
    transition:
     transform 0.25s,
-    box-shadow 0.25s;
+    box-shadow 0.25s
 }
-.panel{
+
+.vida-video {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}
+.about-vida{
   display:flex;
   justify-content: space-between;
 }
