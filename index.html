@@ -10,23 +10,32 @@
     <a class="skip-link" href="#main">Skip to main content</a>
     <div class="topbar">Free Accra pickup on selected orders above GH₵300</div>
     <nav class="nav" aria-label="Main navigation">
-      <a class="logo" href="index.html">Savanna Mart</a>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="deals.html">Deals</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="search-box">
-        <input
-          id="pageSearch"
-          type="search"
-          aria-label="Search this page"
-          placeholder="Search page"
-        /><button onclick="pageSearch()">Search</button>
-      </div>
-    </nav>
+  <div class="nav-top">
+    <a class="logo" href="index.html">Savanna Mart</a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" onclick="toggleMenu()">
+      ☰
+    </button>
+  </div>
+
+  <ul class="menu" id="mobileMenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="deals.html">Deals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="search-box">
+    <input
+      id="pageSearch"
+      type="search"
+      aria-label="Search this page"
+      placeholder="Search page"
+    />
+    <button onclick="pageSearch()">Search</button>
+  </div>
+</nav>
    <header class="hero">
   <video class="hero-video" autoplay muted loop playsinline>
     <source src="./assets/WhatsApp Video 2026-05-24 at 13.56.21.mp4" type="video/mp4" />
